@@ -7,7 +7,43 @@
     <link href="main4.css" rel="stylesheet" />
     <title>Mes livres</title>
 </head>
+<style>
+    /* Fichier: styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
 
+header, footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.product-grid div {
+    background: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+}
+/* Pour les écrans en dessous de 768px */
+@media (max-width: 768px) {
+    header, footer {
+        font-size: 14px;
+    }
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
 <body>
     <div class="v252_86">
         <div class="v252_87"></div>
