@@ -12,13 +12,10 @@
     color: rgba(247, 96, 2, 0.907);
   }
   .A{
-    top: 20%;
-    margin: 200px;
-    left: 50px;
-    right: 50px;
-    position: absolute;
+    top: 10%;
+    margin: 1%;
     font-size: 20px;
-    font-family: 'Times New Roman', serif;
+    font-family: 'Times New Roman', sans-serif;
 }
 a{
   text-decoration: none;
